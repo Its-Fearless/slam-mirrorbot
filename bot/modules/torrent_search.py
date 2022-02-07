@@ -336,16 +336,16 @@ torrent_handlers = [
 def searchhelp(update, context):
     help_string = '''
 <b>Torrent Search of DeadSoul</b>
-• /nyaasi_ds <i>[search query]</i>
-• /sukebei_ds <i>[search query]</i>
-• /1337x_ds <i>[search query]</i>
-• /piratebay_ds <i>[search query]</i>
-• /tgx_ds <i>[search query]</i>
-• /yts_ds <i>[search query]</i>
-• /eztv_ds <i>[search query]</i>
-• /torlock_ds <i>[search query]</i>
-• /rarbg_ds <i>[search query]</i>
-• /ts_dS <i>[search query]</i>
+• /nyaasi_gs <i>[search query]</i>
+• /sukebei_gs <i>[search query]</i>
+• /1337x_gs <i>[search query]</i>
+• /piratebay_gs <i>[search query]</i>
+• /tgx_gs <i>[search query]</i>
+• /yts_gs <i>[search query]</i>
+• /eztv_gs <i>[search query]</i>
+• /torlock_gs <i>[search query]</i>
+• /rarbg_gs <i>[search query]</i>
+• /ts_gs <i>[search query]</i>
 '''
     sendMessage(help_string, context.bot, update)
     
