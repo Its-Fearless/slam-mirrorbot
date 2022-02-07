@@ -318,14 +318,14 @@ RESULT_STR_ALL = (
 TORRENT_API = 'https://api.linkstore.eu.org/api'
 
 torrents_dict = {
-    '1337x_ds': {'source': f"{TORRENT_API}/1337x/", 'result_str': RESULT_STR_1337},
-    'piratebay_ds': {'source': f"{TORRENT_API}/piratebay/", 'result_str': RESULT_STR_PIRATEBAY},
-    'tgx_ds': {'source': f"{TORRENT_API}/tgx/", 'result_str': RESULT_STR_TGX},
-    'yts_ds': {'source': f"{TORRENT_API}/yts/", 'result_str': RESULT_STR_YTS},
-    'eztv_ds': {'source': f"{TORRENT_API}/eztv/", 'result_str': RESULT_STR_EZTV},
-    'torlock_ds': {'source': f"{TORRENT_API}/torlock/", 'result_str': RESULT_STR_TORLOCK},
-    'rarbg_ds': {'source': f"{TORRENT_API}/rarbg/", 'result_str': RESULT_STR_RARBG},
-    'ts_ds': {'source': f"{TORRENT_API}/all/", 'result_str': RESULT_STR_ALL}
+    '1337x_gs': {'source': f"{TORRENT_API}/1337x/", 'result_str': RESULT_STR_1337},
+    'piratebay_gs': {'source': f"{TORRENT_API}/piratebay/", 'result_str': RESULT_STR_PIRATEBAY},
+    'tgx_gs': {'source': f"{TORRENT_API}/tgx/", 'result_str': RESULT_STR_TGX},
+    'yts_gs': {'source': f"{TORRENT_API}/yts/", 'result_str': RESULT_STR_YTS},
+    'eztv_gs': {'source': f"{TORRENT_API}/eztv/", 'result_str': RESULT_STR_EZTV},
+    'torlock_gs': {'source': f"{TORRENT_API}/torlock/", 'result_str': RESULT_STR_TORLOCK},
+    'rarbg_gs': {'source': f"{TORRENT_API}/rarbg/", 'result_str': RESULT_STR_RARBG},
+    'ts_gs': {'source': f"{TORRENT_API}/all/", 'result_str': RESULT_STR_ALL}
 }
 
 torrent_handlers = [
